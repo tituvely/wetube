@@ -7,12 +7,15 @@
     "url": "git+https://github.com/tituvely/wetube.git"
   },
   "scripts": {
-      "win": "node index.js"
+    "win": "node index.js"
   },
   "author": "Daisy",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/tituvely/wetube/issues"
   },
-  "homepage": "https://github.com/tituvely/wetube#readme"
+  "homepage": "https://github.com/tituvely/wetube#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
