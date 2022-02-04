@@ -1,6 +1,1 @@
-// const express = require("express");
-import express from "express";
-
-const app = express();
-
-console.log("HI!")
+console.log("How are you!")

@@ -7,7 +7,7 @@
     "url": "git+https://github.com/tituvely/wetube.git"
   },
   "scripts": {
-    "dev": "babel-node index.js"
+    "dev": "nodemon --exec babel-node index.js"
   },
   "author": "Daisy",
   "license": "MIT",
@@ -20,7 +20,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.0",
+    "@babel/node": "^7.16.8",
     "@babel/preset-env": "^7.16.11",
-    "@babel/node": "^7.16.8"
+    "nodemon": "^2.0.15"
   }
 }
